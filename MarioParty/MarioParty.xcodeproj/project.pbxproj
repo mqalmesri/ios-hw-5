@@ -23,6 +23,8 @@
 		9449EE762429F105006D3BD4 /* BG.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE752429F105006D3BD4 /* BG.wav */; };
 		9449EE782429F136006D3BD4 /* Koopa.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE772429F136006D3BD4 /* Koopa.wav */; };
 		D22BA088242A4006002EC169 /* MarioCharactersAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22BA087242A4006002EC169 /* MarioCharactersAssets.xcassets */; };
+		E6F6D61F24AFB76F0063C7E2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F6D61E24AFB76F0063C7E2 /* Player.swift */; };
+		E6F6D62424AFBC7E0063C7E2 /* PlayerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F6D62324AFBC7E0063C7E2 /* PlayerDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		9449EE752429F105006D3BD4 /* BG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BG.wav; sourceTree = "<group>"; };
 		9449EE772429F136006D3BD4 /* Koopa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Koopa.wav; sourceTree = "<group>"; };
 		D22BA087242A4006002EC169 /* MarioCharactersAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MarioCharactersAssets.xcassets; sourceTree = "<group>"; };
+		E6F6D61E24AFB76F0063C7E2 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E6F6D62324AFBC7E0063C7E2 /* PlayerDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		9449EE3524299E68006D3BD4 = {
 			isa = PBXGroup;
 			children = (
+				E6F6D62024AFBB6F0063C7E2 /* ViewController */,
+				E6F6D61D24AFB7150063C7E2 /* Models */,
 				9449EE4024299E69006D3BD4 /* MarioParty */,
 				9449EE3F24299E69006D3BD4 /* Products */,
 			);
@@ -78,7 +84,6 @@
 			children = (
 				9449EE4124299E69006D3BD4 /* AppDelegate.swift */,
 				9449EE4324299E69006D3BD4 /* SceneDelegate.swift */,
-				9449EE4524299E69006D3BD4 /* ViewController.swift */,
 				9449EE4724299E69006D3BD4 /* Main.storyboard */,
 				D22BA087242A4006002EC169 /* MarioCharactersAssets.xcassets */,
 				9449EE4A24299E6D006D3BD4 /* Assets.xcassets */,
@@ -119,6 +124,23 @@
 				9449EE752429F105006D3BD4 /* BG.wav */,
 			);
 			path = Music;
+			sourceTree = "<group>";
+		};
+		E6F6D61D24AFB7150063C7E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6F6D61E24AFB76F0063C7E2 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E6F6D62024AFBB6F0063C7E2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9449EE4524299E69006D3BD4 /* ViewController.swift */,
+				E6F6D62324AFBC7E0063C7E2 /* PlayerDetailsVC.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F6D61F24AFB76F0063C7E2 /* Player.swift in Sources */,
+				E6F6D62424AFBC7E0063C7E2 /* PlayerDetailsVC.swift in Sources */,
 				9449EE4624299E69006D3BD4 /* ViewController.swift in Sources */,
 				9449EE4224299E69006D3BD4 /* AppDelegate.swift in Sources */,
 				9449EE4424299E69006D3BD4 /* SceneDelegate.swift in Sources */,
